@@ -1,0 +1,137 @@
+body {
+    background-image: url("COFFEE 4k.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#Main{
+    margin-bottom: 0px;
+}
+
+#sub {
+    display: flex;
+    justify-content: center;
+}
+
+.container1{
+    text-align: center;
+}
+
+.container2{
+    text-align: center;
+}
+
+
+.container3{
+    text-align: center;
+}
+
+
+
+#Question {
+    width: 100%;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+p {
+    color: #7f5539;
+    font-size: 250%;
+
+}
+
+h1 {
+    color: #b08968; 
+    font-size: 1000%;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 100px;
+}
+
+h2{
+    color: #7f5539;
+}
+
+.tab1 {
+    width: 400px;
+    text-align: center;
+}
+.tab2 {
+    width: 400px;
+    text-align: center;
+}
+.tab3 {
+    width: 400px;
+    text-align: center;
+}
+
+.tab1 .p1{
+    font-size: large;
+    opacity: 0;
+}
+
+.tab2 .p2{
+    font-size: large;
+    opacity: 0;
+}
+
+.tab3 .p3{
+    font-size: large;
+    opacity: 0;
+}
+
+
+#MAIN {
+    align-items: center;
+    padding : 10%;
+    padding-bottom: 0%;
+
+}
+
+.tab1:hover h2{
+    cursor: pointer;
+}
+
+.container1:hover .tab1 .p1{
+    opacity: 1;
+    background-color: #ede0d4;
+
+}
+
+.tab2:hover h2{
+    cursor: pointer;
+}
+
+.container2:hover .tab2 .p2{
+    opacity: 1;
+    background-color: #ede0d4;
+}
+
+.tab3:hover h2{
+    cursor: pointer;
+}
+
+.container3:hover .tab3 .p3{
+    opacity: 1;
+    background-color: #ede0d4;
+
+}
+
+
+#Question:hover {
+    cursor: pointer;
+}
+
+#Question #explain {
+    opacity: 0;
+    font-size: large;
+}
+
+#Question:hover #explain{
+    opacity: 1;
+}
+
+
